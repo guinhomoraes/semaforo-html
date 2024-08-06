@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container  
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .semaforo
+{
+    width: 150px;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.container .semaforo .circulo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.vermelho
+{
+    background-color: red !important;
+}
+
+.verde
+{
+    background-color: #7bdc7b !important;
+}
+
+.amarelo
+{
+    background-color: yellow !important;
+}
+
+.ativo
+{
+    opacity: 1;
+}
+
+.inativo
+{
+    opacity: 0.5;
+}
+
